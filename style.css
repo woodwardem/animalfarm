@@ -1,8 +1,7 @@
-/*body {
-    background: darkmagenta;
-} */
+
 #farm {
-    background: lightyellow;
+    display: flex;
+    justify-content: center;
 }
 
 .make {
@@ -11,7 +10,55 @@
     background: lightgray;
     padding: 10px;
 border: solid black 1px;
-margin: auto;
+margin-left: 20px;
 text-align: center;
 border-radius: 50%;
+padding-left: 10px;
+margin-bottom: 20px;
+}
+
+.catObject {
+    height: 150px;
+    width: 150px;
+    background: lightcyan;
+    padding: 10px;
+border: solid black 1px;
+margin-bottom: 20px;
+text-align: center;
+border-radius: 50%;    
+
+}
+
+.dogObject {
+    height: 150px;
+    width: 150px;
+    background-color: lightsalmon;
+    padding: 10px;
+border: solid black 1px;
+margin-bottom: 20px;
+text-align: center;
+border-radius: 50%;    
+}
+
+.horseObject {
+    height: 150px;
+    width: 150px;
+    background-color: lightgreen;
+    padding: 10px;
+border: solid black 1px;
+margin-bottom: 20px;
+text-align: center;
+border-radius: 50%;    
+}
+
+
+.sheepObject {
+    height: 150px;
+    width: 150px;
+    background-color: lightsteelblue;
+    padding: 10px;
+border: solid black 1px;
+margin-bottom: 20px;
+text-align: center;
+border-radius: 50%;    
 }
