@@ -9,7 +9,7 @@
     width: 150px;
     background: lightgray;
     padding: 10px;
-border: solid black 1px;
+border: solid black 5px;
 margin-left: 20px;
 text-align: center;
 border-radius: 50%;
@@ -22,11 +22,11 @@ margin-bottom: 20px;
     width: 150px;
     background: lightcyan;
     padding: 10px;
-border: solid black 1px;
+border: solid black 3px;
 margin-bottom: 20px;
 text-align: center;
 border-radius: 50%;    
-
+font-weight: bold;
 }
 
 .dogObject {
@@ -34,10 +34,11 @@ border-radius: 50%;
     width: 150px;
     background-color: lightsalmon;
     padding: 10px;
-border: solid black 1px;
+border: solid black 3px;
 margin-bottom: 20px;
 text-align: center;
 border-radius: 50%;    
+font-weight: bold;
 }
 
 .horseObject {
@@ -45,10 +46,11 @@ border-radius: 50%;
     width: 150px;
     background-color: lightgreen;
     padding: 10px;
-border: solid black 1px;
+border: solid black 3px;
 margin-bottom: 20px;
 text-align: center;
 border-radius: 50%;    
+font-weight: bold;
 }
 
 
@@ -57,8 +59,14 @@ border-radius: 50%;
     width: 150px;
     background-color: lightsteelblue;
     padding: 10px;
-border: solid black 1px;
+border: solid black 3px;
 margin-bottom: 20px;
 text-align: center;
 border-radius: 50%;    
+font-weight: bold;
+}
+
+
+h1 {
+    text-align: center;
 }

@@ -41,11 +41,11 @@ function goMakeDog() {
 }// the most specific declarations to the render is that the the animals will only be rendered on the page when that button is clicked. 
 //All the last 4 functions are responsible for printing the correct animal on the screen when that button is clicked. These functions are only invoked when 
 //the button(s) are clicked. 
-let makeHorseButton = document.getElementById('makeHorse');
-makeHorseButton.addEventListener ('click',goMakeHorse)
+let makeHorseButton = document.getElementById('makeHorse');// this conencts the button for horse to the id in the html. 
+makeHorseButton.addEventListener ('click',goMakeHorse)//tells the computer what to do when the makeHorse button is clicked. 
 
 function goMakeHorse() {
-    let horse = new Animal('horse');
+    let horse = new Animal('horse');//creating a new animal. this is possible because of the constructir function and its template. 
     horse.render();// The horse will be rendered on the screen when the button is pushed. 
 }
 let makeSheepButton = document.getElementById('makeSheep');
