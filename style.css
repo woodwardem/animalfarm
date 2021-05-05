@@ -67,6 +67,46 @@ font-weight: bold;
 }
 
 
-h1 {
-    text-align: center;
+
+header {
+height: 100px;
+width: 100%;
+    background: indianred;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 500px;
+    border: black 1px solid black;
+
+}
+  main > aside {
+    width: 250px;
+    height: 500px;
+    flex-direction: column;
+    border: black 1px solid;
+    order: 3;
+}
+ main > side2 {
+    order: 2;
+    width: 250px;
+    flex-direction: column;
+    flex: 50%;
+}
+main > .farm {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    order: 2;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
 }
