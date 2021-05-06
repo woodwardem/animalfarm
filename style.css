@@ -87,12 +87,14 @@ div {
 }
   #aside {
    order: 3;
-   height: 100%;
-   width: 200px;
+   height: 200px;
+   width: 150px;
    background: lightblue;
 }
  #side2 {
-     
+    height: 200px;
+    width: 150px;
+    background: lightblue;
  }
     
  #farm {
