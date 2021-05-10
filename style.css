@@ -1,8 +1,8 @@
 #farm {
     display: flex;
     justify-content: center;
-
 }
+
 
 .make {
     height: 150px;
@@ -79,17 +79,17 @@ font-weight: bold;
    
 }
 
-#rightside {
-background: cyan;
-display: grid;
-grid-template-columns: 250px 1fr 250px;
-}
 /*main {
  display: grid;
  grid-template-columns: 250px 1fr 250px;
  height: calc(100% - 12vh);
 }
 */
+#rightside {
+    background: cyan;
+    display: grid;
+    grid-template-columns: 250px 1fr 250px;
+    }
 header {
     background: indianred;
 order: 1;
@@ -108,14 +108,14 @@ margin-bottom: 100px;
     width: 348px;
     display: grid;
 
-    font-size: 22px;
+    font-size: 18px;
 }
  
 
 footer {
     background: indianred;
     
-    
+   
    
   position: fixed;
   width: 1400px;
@@ -126,24 +126,40 @@ footer {
 
 fieldset {
     justify-content: center;
-    align-items: center;
     background: cornsilk;
+    height: 360px;
+    width: 500px;
+    align-items: center;
+    
+}
+journalnav {
+    background: cyan;
+    order: 2;
+    height: 610px;
+    width: 348px;
+    display: grid;
 
+    font-size: 18px;
 }
 
-
+#head2 {
+    height: 60px;
+    margin-bottom: 50px;
+    background: indianred;
+}
 
 #link {
     border: 1px solid black;
-    height: 20px;
+    height: 340px;
     background: lightgrey;
     color: black;
 }
 
 #link1 {
     border: 1px solid black;
-    height: 20px;
+    height: 40px;
     background: lightgrey;
     color: black;
     grid-row-start: 3;
+    width: 124px;
 }
