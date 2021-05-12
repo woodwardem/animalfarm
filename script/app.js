@@ -1,9 +1,14 @@
-//console.log('hello world');
+('use strict')
 
 const form = document.getElementsByTagName('FORM') [0];
+form.addEventListener('submit', makeNewArticle );
+
+function makeNewArticle(event) {
+event.preventDefault();
+console.log('hello, button was clicked')
 
 form.addEventListener('submit', makeNewArticle);
-
+}
 
 
 function makeNewArticle(event) {
@@ -22,6 +27,6 @@ function makeNewArticle(event) {
     article.appendChild(h2);
     article.appendChild(p);
 
-    const main = document.querySelector('main')
-    main.appendChild(article);
+    const section = document.querySelector('section')
+    section.appendChild(article);
 }

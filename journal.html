@@ -4,36 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animal Farm Journal</title>
+    <link rel="stylesheet" href="journal.css">
 </head>
-<a href="index.html">Link to index</a>
-<header>
-    <h1>A Journal for Animal Farm</h1>
-</header>
+
+
+
+ 
 <body>
-    <main>
+    
+        <h1>A Journal for Animal Farm</h1>
+    
+        
+  <main>
+    
+    <nav id="journalnav" ><strong>Link to Index</strong>
+    <a id="link" href="index.html"> <strong>Link to Index</strong></a>
+</nav>
+<section>
+      <form id="form">
+      <fieldset>
+        <label for="title">title</label>
+        <input type="text" name="title" placeholder="Animal farm Journal">
+        <label for="content">Content</label>
+        <textarea name="content" id="journal_content cols="30" rows="10"
+         placeholder="Journal Content"></textarea>
+        <input type="submit">
+    </fieldset>
 
-<form>
-<fieldset>
-    <label for="title">title</label>
-    <input type="text" name="title" placeholder="Animal farm Journal">
-    <label form="content">Content</label>
-    <textarea name="content" id="journal_content cols="30" rows="10"
-    placeholder="Journal Content"></textarea>
-   <input type="submit">
-</fieldset>
-
-</form>
-
-
-
-    </main>
+      </form>
+       <article id="days">
+        <h2>Monday: A Good Day</h2>
+        <p>Today we created a bunch of dogs and cats.</p>
+        <h2>Tuesday: Another Great Day</h2>
+        <p>Created more code</p>
+      </article>
+</section>
+<div id="right3"> <strong>ADS</strong></div>
+  </main>
 
 
 
-
+ <footer id="foot">@mccallWoodward2021</footer>
 
 </body>
 
-<footer id="foot">footer</footer>
+
 <script src="./script/app.js"></script>
 </html>
