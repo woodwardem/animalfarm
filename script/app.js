@@ -27,6 +27,6 @@ function makeNewArticle(event) {
     article.appendChild(h2);
     article.appendChild(p);
 
-    const main = document.querySelector('main')
-    main.appendChild(article);
+    const section = document.querySelector('section')
+    section.appendChild(article);
 }

@@ -123,19 +123,23 @@ footer {
     
     
 }
+form {
+    display: grid;
+    grid-row: 1;
+    grid-column: 6;
+}
+
+
 
 fieldset {
-    justify-content: center;
     background: cornsilk;
-    height: 360px;
+    height: 460px;
     width: 500px;
-    align-items: center;
-    
 }
-journalnav {
+#journalnav {
     background: cyan;
     order: 2;
-    height: 610px;
+    height: 510px;
     width: 348px;
     display: grid;
 
@@ -163,3 +167,5 @@ journalnav {
     grid-row-start: 3;
     width: 124px;
 }
+
+
